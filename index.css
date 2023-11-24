@@ -1,0 +1,204 @@
+header{
+    background-color: #3B5998;
+    height: 120px;
+    width: 100%;
+}
+.div1 h1{
+    margin-top: 38px;
+    color: white;
+    
+}
+.div11 h1{
+    margin-top: 38px;
+    color: white;
+    
+}
+.div12 h1{
+    margin-top: 38px;
+    color: white;
+    
+}
+.div2{
+    margin-top: 40px;
+}
+.div2 div{
+    height: 6px;
+    width: 36px;
+    background-color: black;
+    margin:4px 0px;
+
+}
+.sec1{
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.sec2{
+    background-color: #3B5998;
+    height: 240px;
+    width: 100%;
+}
+.sec2 img{
+    height:60px;
+    margin: 80px 12px 0px 0px;
+    border-radius: 12px;
+}
+.sec2 p{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+}
+body{
+    background-color: #f0f0f0;
+}
+.sec1 h4{
+    font-weight: 600;
+}
+.div3{
+    color: black;
+    margin: 40px 0px 344px 0px;
+    border: 1px solid white;
+    padding-left: 14px;
+    width: 80%;
+    height: 80px;
+    background-color: white;
+    cursor: pointer;
+}
+.div4{
+    color: black;
+    margin: 60px 0px 20px 0px;
+    border: 1px solid white;
+    padding-left: 14px;
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+.div5{
+    color: black;
+    margin: 277px 0px 20px 0px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+.about{
+    display: none;
+}
+.aboutme{
+    display: none;
+    text-align: center;
+    margin-top: 0px;
+    color:red;
+    font-size: 30;
+    padding-top: 140px;
+}
+.aboutme h1{
+    font-size: 80;
+    font-weight: bold;
+}
+.aboutme p{
+    color: black;
+    padding-top: 40px;
+}
+.aboutme img{
+    height:60px;
+    border-radius: 12px;
+}
+.skills{
+    display: none;
+    color:navy;
+    font-weight: bold;
+}
+#skill h1{
+    text-align: center;
+    font-size: 50;
+    font-weight: bold;
+}
+#skid{
+    margin-left: 400px;
+    margin-top: 80px;
+    font-size: 20;
+    font-weight: bold;
+}
+#skid h1{
+    font-size: 40;
+    font-weight: bold;
+}
+#skill1{
+    padding-top: 40px;
+}
+#skill2{
+    padding-top: 40px;
+}
+#skill3{
+    padding-top: 40px;
+}
+#skid p{
+    padding-top: 30px;
+    font-style: oblique;
+}
+.main h1:hover{
+    cursor: pointer;
+}
+.projects{
+    display: none;
+    text-align: center;
+    margin-top: -19px;
+}
+.projects img{
+    width: 90%;
+    height: 40%;
+    border-radius: 12px;
+    padding-bottom: 60px;
+}
+.projects h1{
+    font-size: 40;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.div4::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 7px;
+    height: 140%;
+    border-radius: 15px;
+    background-color: #3B5998; /* Blue color */
+    z-index: 1;
+    margin-left: 260px;
+}
+.div3::before,
+.div4::before,
+.div5::before {
+    content: "\1F393"; /* Unicode character for a graduation cap */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(180deg); /* Rotate the cap head towards the content */
+    font-size: 24px; /* Adjust as needed */
+    color: #fff; /* White color */
+    z-index: 2;
+}
+
+.div3::before {
+    top: 25%; /* Adjust positioning for div3 */
+    margin-left: 245px;
+    margin-bottom: 400px;
+    padding-top: 220px;
+}
+
+.div4::before {
+    top: 50%; /* Adjust positioning for div4 */
+    content: "\1F393";
+}
+
+.div5::before {
+    top: -16%; /* Adjust positioning for div5 */
+    padding-left: 616px;
+}
+
+
+

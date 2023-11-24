@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>
+            Portfolio
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 div1">
+                            <h1 class="home">Home</h1>
+                        </div>
+                        <div class="col-md-3 div11">
+                            <h1 class="div111">Education</h1>
+                        </div>
+                        <div class="col-md-3 div12">
+                            <h1>Projects</h1>
+                        </div>
+                        <div class="col-md-3 div2">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="sec1">
+            <div class="container about">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="div3">
+                            <h4>Kakatiya High School<br>Khammam,Telangana</h4>
+                            <p>SSC</p>
+                        </div>
+                        <div class="div4">
+                           <h4>Khammam Institute of Technology and Sciences
+                                  Khammam,,Telangana<br>
+                                  Bachelor's Degree
+                           </h4>
+                           <p>CSE</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 div5">
+                        <h4>Sri Chaitanya Jr College
+                               (Khammam,Telangana)<br>
+                               Intermediate
+                        </h4>
+                        <p>MPC </p>
+                    </div>
+                </div>
+            </div>
+            <div class="aboutme">
+                <h1>Hi,My Name is Mannem Saiteja</h1>
+                <p>A Software Developer with a passion<br>for learning and creating</p>
+                <div class="imgsec">
+                    <a href="https://www.linkedin.com/in/mannem-saiteja"> <img src="{{ url_for('static',filename='images/linkedin3.png') }}"> </a>
+                    <img src="{{ url_for('static',filename='images/github1.png') }}">
+                </div>
+            </div>
+            <section class="projects">
+                <h1>My Own Projects</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 first">
+                            <img src="{{ url_for('static',filename='images/sw.gif') }}">
+                        </div>
+                        <div class="col-md-4 second">
+                            <img src="{{ url_for('static',filename='images/productsearch.png') }}">
+                        </div>
+                        <div class="col-md-4 third">
+                            <img src="{{ url_for('static',filename='images/filterablegallery.jpg') }}">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 first">
+                            <img src="{{ url_for('static',filename='images/simplecalcu.png') }}">
+                        </div>
+                        <div class="col-md-4 second">
+                            <img src="{{ url_for('static',filename='images/todolist.png') }}">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="skills">
+            <div id="skill">
+                <h1>Skills</h1>
+            </div>
+            <div id="skid">
+                <div id="skill1">
+                    <h1>Front-End</h1>
+                    <p>HTML , CSS , Javascript</p>
+                </div>
+                <div id="skill2">
+                    <h1>Back-End</h1>
+                    <p>Flask , Django,Mysql</p>
+                </div>
+                <div id="skill3">
+                    <h1>Languges</h1>
+                    <p>Python , Javascript</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 first">
+                        <a href="https://www.linkedin.com/in/mannem-saiteja"> <img src="{{ url_for('static',filename='images/linkedin3.png') }}"> </a>
+                    </div>
+                    <div class="col-md-3 second">
+                        <img src="{{ url_for('static',filename='images/github1.png') }}">
+                    </div>
+                    <div class="col-md-3 third">
+                        <img src="{{ url_for('static',filename='images/insta1.png') }}">
+                    </div>
+                    <div class="col-md-3 last">
+                        <img src="{{ url_for('static',filename='images/twitter3.png') }}">
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2023 MyPortfolio.com</p>
+        </section>
+        <script src="static\portfolio.js"></script>
+    </body>
+</html>
